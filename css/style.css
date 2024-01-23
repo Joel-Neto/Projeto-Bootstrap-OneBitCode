@@ -1,0 +1,110 @@
+.section03-content, .section01-content, .section02-content, .header-content {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 500;
+}
+.section03-content h3, .section01-content h3, .section02-content h3, .header-content h3 {
+  font-size: 16px;
+}
+.section03-content h1, .section01-content h1, .section02-content h1, .header-content h1 {
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+.section03-content button, .section01-content button, .section02-content button, .header-content button {
+  padding: 12px 30px;
+  text-transform: uppercase;
+  border-radius: 3px !important;
+  font-size: 13px;
+  border: 1.5px solid;
+}
+
+.sections-style {
+  min-height: 100vh;
+  background-color: black;
+}
+
+.home-header-img {
+  background-image: url("../../img/home/01.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(0.9);
+}
+
+.obc-logo {
+  max-width: 200px;
+}
+
+.nav-link a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.header-content {
+  margin-top: 110px;
+}
+
+.home-section01 {
+  background-image: url("../../img/home/03.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(0.9);
+}
+
+.section01-content, .section02-content {
+  max-width: 450px;
+}
+
+.home-section02 {
+  background-image: url("../../img/home/02.gif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(0.9);
+}
+
+.section03-content {
+  max-width: 550px;
+}
+
+.home-section03 {
+  background-image: url("../../img/home/04.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(0.9);
+}
+
+footer {
+  background-color: #050505;
+  font-size: 13px;
+}
+footer p {
+  color: #555252;
+}
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media (max-width: 400px) {
+  .header-content h3, .section01-content h3, .section02-content h3, .section03-content h3 {
+    font-size: 15px;
+  }
+  .header-content h1, .section01-content h1, .section02-content h1, .section03-content h1 {
+    font-size: 28px;
+    margin-bottom: 50px;
+  }
+  .header-content button, .section01-content button, .section02-content button, .section03-content button {
+    font-size: 12px;
+  }
+}
+@media (max-width: 360px) {
+  .obc-logo {
+    width: 150px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
