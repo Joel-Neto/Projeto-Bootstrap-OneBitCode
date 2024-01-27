@@ -1,4 +1,8 @@
-.falcon9-header-img,
+.human-flight-header-img,
+.human-flight-section01,
+.human-flight-section02,
+.human-flight-section03,
+.human-flight-section04, .falcon9-header-img,
 .falcon9-section01,
 .falcon9-section02,
 .falcon9-carousel01-container01,
@@ -12,23 +16,23 @@
   filter: brightness(0.9);
 }
 
-.home-header-content, .section-content {
+.human-flight-section-content, .home-header-content, .section-content {
   text-transform: uppercase;
   color: #fff;
   font-weight: 500;
 }
-.home-header-content h3, .section-content h3 {
+.human-flight-section-content h3, .home-header-content h3, .section-content h3 {
   font-size: 16px;
 }
-.home-header-content h1, .section-content h1 {
+.human-flight-section-content h1, .home-header-content h1, .section-content h1 {
   font-size: 35px;
   margin-bottom: 50px;
 }
-.home-header-content p, .section-content p {
+.human-flight-section-content p, .home-header-content p, .section-content p {
   text-transform: none;
   line-height: 2;
 }
-.home-header-content button, .section-content button {
+.human-flight-section-content button, .home-header-content button, .section-content button {
   padding: 12px 30px;
   text-transform: uppercase;
   border-radius: 3px !important;
@@ -38,7 +42,7 @@
 
 .sections-style {
   min-height: 100vh;
-  background-color: #050505;
+  background-color: #020101;
 }
 
 .obc-logo {
@@ -121,7 +125,7 @@
 
 .falcon9-numbers {
   min-height: 170px;
-  background-color: #050505;
+  background-color: #020101;
   color: #fff;
 }
 .falcon9-numbers h1 {
@@ -190,7 +194,7 @@
 }
 
 .falcon9-carousel02-style {
-  background-color: #050505;
+  background-color: #020101;
 }
 .falcon9-carousel02-style img {
   max-height: 110vh;
@@ -200,8 +204,51 @@
   color: #555252;
 }
 
+.human-flight-header-img {
+  background-image: url("../img/humanFlight/01.jpg");
+}
+
+.human-contact {
+  min-height: 150px;
+  background-color: #020101;
+  color: #fff;
+}
+.human-contact p {
+  font-size: 17px;
+}
+
+.human-flight-section01 {
+  background-image: url("../img/humanFlight/02.jpg");
+}
+
+.human-flight-section-content {
+  max-width: 500px;
+}
+.human-flight-section-content h1 {
+  font-size: 50px;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+.human-flight-section-content h3 {
+  font-size: 14px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.human-flight-section02 {
+  background-image: url("../img/humanFlight/03.jpg");
+}
+
+.human-flight-section03 {
+  background-image: url("../img/humanFlight/04.jpg");
+}
+
+.human-flight-section04 {
+  background-image: url("../img/humanFlight/05.jpg");
+}
+
 footer {
-  background-color: #050505;
+  background-color: #020101;
   font-size: 13px;
 }
 footer p {
@@ -224,6 +271,10 @@ footer a:hover {
   .falcon9-carousel01-items .table td {
     font-size: 12px;
   }
+  .human-flight-section01,
+  .human-flight-section03 {
+    background-position: left;
+  }
 }
 @media (max-width: 550px) {
   .carousel-item {
@@ -238,25 +289,34 @@ footer a:hover {
   .generic-header-content h3 {
     font-size: 14px;
   }
-  .section-content p, .home-header-content p {
+  .section-content p, .home-header-content p, .human-flight-section-content p {
     font-size: 13px;
     line-height: 2;
   }
+  .human-contact p {
+    font-size: 14px;
+  }
+  .human-flight-section-content h1 {
+    font-size: 40px;
+  }
 }
 @media (max-width: 491px) {
-  .falcon9-btn {
+  .pages-btn {
     width: 100%;
+  }
+  .human-flight-section-content h1 {
+    font-size: 35px;
   }
 }
 @media (max-width: 400px) {
-  .section-content h3, .home-header-content h3 {
+  .section-content h3, .home-header-content h3, .human-flight-section-content h3 {
     font-size: 15px;
   }
-  .section-content h1, .home-header-content h1 {
+  .section-content h1, .home-header-content h1, .human-flight-section-content h1 {
     font-size: 28px;
     margin-bottom: 50px;
   }
-  .section-content button, .home-header-content button {
+  .section-content button, .home-header-content button, .human-flight-section-content button {
     font-size: 12px;
   }
   .carousel-item {
@@ -271,10 +331,27 @@ footer a:hover {
   .falcon9-merlin-content .falcon9-merlin-text {
     font-size: 13px;
   }
+  .human-flight-section-content h1 {
+    font-size: 32px;
+    margin-bottom: 12px;
+  }
+  .human-flight-section-content h3 {
+    font-size: 13px;
+    margin-bottom: 30px;
+  }
 }
 @media (max-width: 370px) {
   .obc-logo {
-    width: 170px;
+    width: 160px;
+  }
+  .generic-header-content h1 {
+    font-size: 45px;
+  }
+  .human-flight-section-content h1 {
+    font-size: 28px;
+  }
+  .human-flight-section-content h3 {
+    font-size: 12px;
   }
 }
 
