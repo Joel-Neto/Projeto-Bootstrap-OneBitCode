@@ -9,7 +9,10 @@
 .falcon9-carousel01-container02,
 .falcon9-carousel01-container03,
 .falcon9-carousel01-container04,
-.falcon9-carousel01-container05 {
+.falcon9-carousel01-container05, .home-header-img,
+.home-section01,
+.home-section02,
+.home-section03 {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -77,10 +80,6 @@
 
 .home-header-img {
   background-image: url("../img/home/01.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  filter: brightness(0.9);
 }
 
 .home-header-content {
@@ -89,10 +88,6 @@
 
 .home-section01 {
   background-image: url("../img/home/03.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  filter: brightness(0.9);
 }
 
 .width-450 {
@@ -101,18 +96,10 @@
 
 .home-section02 {
   background-image: url("../img/home/02.gif");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  filter: brightness(0.9);
 }
 
 .home-section03 {
   background-image: url("../img/home/04.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  filter: brightness(0.9);
 }
 
 .width-550 {
@@ -266,7 +253,7 @@ footer a:hover {
 @media (max-width: 768px) {
   .falcon9-carousel01-items {
     position: unset;
-    margin: 70px auto;
+    margin: 170px auto 20px auto;
   }
   .falcon9-carousel01-items .table td {
     font-size: 12px;
@@ -298,6 +285,11 @@ footer a:hover {
   }
   .human-flight-section-content h1 {
     font-size: 40px;
+  }
+}
+@media (max-height: 500px) {
+  .falcon9-carousel01-items {
+    margin: 90px auto 20px auto;
   }
 }
 @media (max-width: 491px) {
